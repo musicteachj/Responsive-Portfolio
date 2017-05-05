@@ -25,7 +25,7 @@
 }
 
 .text {
-	float: left;
+	
 	color: white;
 	background-color: white;
 	height: 65px;
@@ -203,5 +203,265 @@ textarea {
 	margin: 3px;
 }
 
+@media only screen and (max-width: 980px) {
+    .text {
+    	float: right;
+    	margin-right: 100px;
+    }
+
+    #header {
+    	height:100px;
+    }
+
+    #body {
+		height: 900px;
+    }
+
+    #footer {
+    	height: 100px;
+    }
+
+    .headername {
+    	float: left;
+    	width: 200px;
+    	margin-left: 125px;
+    }
+
+    .headername h1 {
+    	color: white;
+    	margin-bottom: 20px;
+		padding-top: 0;
+    }
+
+    .box1 {
+    	width: 400px;
+    	margin-left: 125px;
+    	height: 800px;
+    }
+
+    .box2 {
+    	float: right;
+    	margin-right: 125px;
+    }
+
+    .picture img {
+    	width: 360px;
+    	height: 300px;
+    }
+
+    .inside {
+    	width: 360px;
+    	height: 700px;
+    	line-height: 1.3em;
+    }
+
+    .insideport {
+    	background-color: white;
+    	height: 680px;
+    	width: 360px;
+    }
+
+    #pics {
+    	width: 360px;
+    	border: none;
+    }
+
+    .insidecontact {
+    	background-color: white;
+    	height: 680px;
+    	width: 360px;
+    }
+
+    input, textarea {
+		width: 350px;
+		height: 25px;
+	}
+
+	textarea {
+		height: 300px;
+		width: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+	#header {
+		height: 100px;
+	}
+
+	.headername {
+		margin-left: 20px;
+	}
+
+	.text{
+		float: right;
+		margin-right: 1px;
+	}
+
+	#body {
+		height: 800px;
+	}
+
+	#footer {
+		height: 100px;
+	}
+
+	.box1 {
+		margin-left: 20px;
+		width: 700px;
+		height: 500px;
+		float: left;
+	}
+
+	.picture  img{
+		width: 340px;
+		height: 240px;
+
+	}
+
+	.inside p {
+		background-color: white;
+		width: 660px;
+		line-height: 1.2em;
+	}
+
+	.inside {
+		height: 300px;
+	}
+
+	.box2 {
+		float: left;
+		margin-left: 20px;
+		width: 700px;
+		height: 180px;
+	}
+
+	.insideport {
+		background-color: white;
+		width: 660px;
+		height: 390px;
+	}
+
+	#pics {
+		width: 290px;
+		height: 180px;
+		margin: 0;
+		margin-bottom: 16px;
+	}
+
+	.insidecontact {
+		background-color: white;
+		width: 660px;
+		height: 390px;
+	}
+
+	input, textarea {
+		width: 650px;
+		height: 25px;
+	}
+
+	textarea {
+		height: 150px;
+	}
+
+}
+
+@media only screen and (max-width: 640px) {
+	#header {
+		height: 100px;
+		width: 640px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.headername {
+		width: 639px;
+		float: left;
+		height: 60px;
+		margin: 0;
+	}
+
+	.text {
+		float: left;
+		width: 639px;
+		height: 40px;
+		margin: 0;
+		padding: 0;
+
+	}
+
+	.text a {
+		padding-left: 70px;
+		padding-right: 70px;
+		
+
+	}
+
+	#body {
+		height: 1250px;
+		width: 640px;
+	}
+
+	.box1 {
+		margin-top: 70px;
+		width: 570px;
+		height: 900px;
+	}
+
+	.box2 {
+		width: 570px;
+	}
+
+
+	#footer {
+		height: 100px;
+		width: 640px;
+	}
+
+	.inside {
+		background-color: white;
+		height: 760px;
+		width: 530px;
+		float: left;
+	}
+
+	.picture img {
+		width: 530px;
+		height: 400px;
+	}
+
+	.inside p {
+		background-color: white;
+		float: left;
+		width: 530px;
+		height: 170px;
+		line-height: 1.5em;
+		margin-top: 10px;
+	}
+
+	.insideport {
+		background-color: white;
+		height: 780px;
+		width: 530px;
+
+	}
+
+	#pics {
+		width: 530px;
+	}
+
+	.insidecontact {
+		background-color: white;
+		width: 530px;
+		height: 390px;
+	}
+
+	input, textarea {
+		width: 520px;
+		height: 25px;
+	}
+
+	textarea {
+		height: 150px;
+	}
+}
 
 
